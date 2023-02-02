@@ -1794,72 +1794,6 @@
               "font": "script",
               "textAlign": "middle"
             }
-          },
-          "5333e145-2754-4409-3a16-4eaebc938703": {
-            "id": "5333e145-2754-4409-3a16-4eaebc938703",
-            "type": "text",
-            "name": "Text",
-            "parentId": "b1715ff1-3f56-4fc4-2128-d6cb2149cde4",
-            "childIndex": 20,
-            "point": [
-              955.48,
-              1205.58
-            ],
-            "rotation": 0,
-            "text": "How does HTTPS work?\nHTTPS uses an encryption protocol to encrypt communications The protocol is called (TLS)\nalthough formerly it was know as (SSL)",
-            "style": {
-              "color": "black",
-              "size": "small",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 0.6842509135200977,
-              "font": "script",
-              "textAlign": "middle"
-            }
-          },
-          "4fe0e437-a63f-437d-2691-30dbb83d8e55": {
-            "id": "4fe0e437-a63f-437d-2691-30dbb83d8e55",
-            "type": "text",
-            "name": "Text",
-            "parentId": "b1715ff1-3f56-4fc4-2128-d6cb2149cde4",
-            "childIndex": 21,
-            "point": [
-              1546.36,
-              1170.6
-            ],
-            "rotation": 0,
-            "text": "when information is sent over regular http the information is broken\ninto packets of data that can be easily sniffed using free software",
-            "style": {
-              "color": "black",
-              "size": "small",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 0.8668524096385541,
-              "font": "script",
-              "textAlign": "middle"
-            }
-          },
-          "5aaa71da-ba62-471a-0fdb-23812cad9f45": {
-            "id": "5aaa71da-ba62-471a-0fdb-23812cad9f45",
-            "type": "text",
-            "name": "Text",
-            "parentId": "b1715ff1-3f56-4fc4-2128-d6cb2149cde4",
-            "childIndex": 22,
-            "point": [
-              1544.7,
-              1223.06
-            ],
-            "rotation": 0,
-            "text": "with https, traffic is encrypted such that even if the packets are sniffed\nor otherwise intercepted, they will come across as nonsensical characters",
-            "style": {
-              "color": "black",
-              "size": "small",
-              "isFilled": false,
-              "dash": "draw",
-              "scale": 0.8668524096385541,
-              "font": "script",
-              "textAlign": "middle"
-            }
           }
         },
         "bindings": {}
@@ -2210,14 +2144,16 @@
         "camera": {
           "point": [
             0,
-            -103.88
+            142.96
           ],
           "zoom": 1
         }
       },
       "b1715ff1-3f56-4fc4-2128-d6cb2149cde4": {
         "id": "b1715ff1-3f56-4fc4-2128-d6cb2149cde4",
-        "selectedIds": [],
+        "selectedIds": [
+          "1c462007-8674-4cd1-0132-df2a1f925088"
+        ],
         "camera": {
           "point": [
             -815.5,
@@ -2228,13 +2164,11 @@
       },
       "30c8e889-2634-4753-0d93-65d2e76dfc00": {
         "id": "30c8e889-2634-4753-0d93-65d2e76dfc00",
-        "selectedIds": [
-          "57fed76b-156e-4b7b-2c5b-083ed4205a17"
-        ],
+        "selectedIds": [],
         "camera": {
           "point": [
             -482.5,
-            -772.92
+            -431.5
           ],
           "zoom": 1
         }
