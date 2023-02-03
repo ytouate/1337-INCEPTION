@@ -1854,11 +1854,11 @@
             "parentId": "30c8e889-2634-4753-0d93-65d2e76dfc00",
             "childIndex": 3,
             "point": [
-              692.41,
+              684.91,
               914.66
             ],
             "rotation": 0,
-            "text": "The browser and the OS both searche their cache first\nto see if they knew the IP for the site web\nbut since they didn't, the OS is calling the DNS",
+            "text": "The browser and the OS both searchZZ their cache first\nto see if they knew the IP for the site web\nbut since they didn't, the OS is calling the DNS",
             "style": {
               "color": "black",
               "size": "small",
