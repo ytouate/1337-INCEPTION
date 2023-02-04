@@ -5180,6 +5180,58 @@
           }
         },
         "bindings": {}
+      },
+      "2de60891-a411-4c8a-31e8-856a8c15b99b": {
+        "id": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+        "name": "PORT FORWARDING",
+        "childIndex": 7,
+        "shapes": {
+          "a52afa32-e7a8-4c48-01ad-629752ff344f": {
+            "id": "a52afa32-e7a8-4c48-01ad-629752ff344f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+            "childIndex": 9,
+            "point": [
+              588.39,
+              796.48
+            ],
+            "rotation": 0,
+            "text": "NAT : network address translation\nallows hunders maybe thousands of devices\nto use one external ip address",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a8234264-019d-4405-19f0-ee88948ff16b": {
+            "id": "a8234264-019d-4405-19f0-ee88948ff16b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+            "childIndex": 10,
+            "point": [
+              910.36,
+              1053.94
+            ],
+            "rotation": 0,
+            "text": "the nat software is built in into the router",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
       }
     },
     "pageStates": {
@@ -5251,6 +5303,19 @@
           "point": [
             -582.5,
             -472
+          ],
+          "zoom": 1
+        }
+      },
+      "2de60891-a411-4c8a-31e8-856a8c15b99b": {
+        "id": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+        "selectedIds": [
+          "a8234264-019d-4405-19f0-ee88948ff16b"
+        ],
+        "camera": {
+          "point": [
+            -515,
+            -680.5
           ],
           "zoom": 1
         }

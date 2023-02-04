@@ -5040,6 +5040,198 @@
             "distance": 8
           }
         }
+      },
+      "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf": {
+        "id": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+        "name": "SSL",
+        "childIndex": 6,
+        "shapes": {
+          "75d0668c-7a63-4782-3733-fd677a3ce8cd": {
+            "id": "75d0668c-7a63-4782-3733-fd677a3ce8cd",
+            "type": "text",
+            "name": "Text",
+            "parentId": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+            "childIndex": 1,
+            "point": [
+              749.18,
+              624.88
+            ],
+            "rotation": 0,
+            "text": "SSL is the predecessor to the modern\nTLD encryption used today",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.8336363636363636,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "609b254d-3dea-4cf3-295a-e89965d181fc": {
+            "id": "609b254d-3dea-4cf3-295a-e89965d181fc",
+            "type": "text",
+            "name": "Text",
+            "parentId": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+            "childIndex": 2,
+            "point": [
+              735.76,
+              752.24
+            ],
+            "rotation": 0,
+            "text": "a website that implements SSL/TLS has\nHTTPS in its URL instead of HTTP",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.840083333333334,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "5477d831-0c30-45ab-18b0-f902f30b9d07": {
+            "id": "5477d831-0c30-45ab-18b0-f902f30b9d07",
+            "type": "text",
+            "name": "Text",
+            "parentId": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+            "childIndex": 3,
+            "point": [
+              1186.98,
+              613.51
+            ],
+            "rotation": 0,
+            "text": "how does SSL/TLS work?\n- SSL encrypts data\nSSL initiates an authentication process called handshake\n ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6671455938697323,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "e9b9eefc-b4b0-4cf6-2a49-e635b78e203f": {
+            "id": "e9b9eefc-b4b0-4cf6-2a49-e635b78e203f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+            "childIndex": 4,
+            "point": [
+              1193.04,
+              671.27
+            ],
+            "rotation": 0,
+            "text": "ssl digitally signs data in order to provide data \nintegrity verifying that the data is not tapered with\nbefore reaching its intended recipient",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7089561586638826,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "6274c019-5430-4b33-38bb-daf177f2910a": {
+            "id": "6274c019-5430-4b33-38bb-daf177f2910a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+            "childIndex": 5,
+            "point": [
+              1085.51,
+              849.48
+            ],
+            "rotation": 0,
+            "text": "TLS is an encryption and authentication protocol\ndesigned to secure Internet communications",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7623281596452327,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "c899bd9f-2ae3-4cea-302c-fa3012a45dc2": {
+            "id": "c899bd9f-2ae3-4cea-302c-fa3012a45dc2",
+            "type": "text",
+            "name": "Text",
+            "parentId": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+            "childIndex": 6,
+            "point": [
+              655.92,
+              998.8
+            ],
+            "rotation": 0,
+            "text": "What happens during a TLS handshake?\nDuring the course of a TLS handshake, the client and server together will do the following:\n \nSpecify which version of TLS (TLS 1.0, 1.2, 1.3, etc.) they will use\nDecide on which cipher suites (see below) they will use\nAuthenticate the identity of the server via the server’s public key and the SSL certificate authority’s digital signature\nGenerate session keys in order to use symmetric encryption after the handshake is complete",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.71878640776699,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
+      },
+      "2de60891-a411-4c8a-31e8-856a8c15b99b": {
+        "id": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+        "name": "PORT FORWARDING",
+        "childIndex": 7,
+        "shapes": {
+          "a52afa32-e7a8-4c48-01ad-629752ff344f": {
+            "id": "a52afa32-e7a8-4c48-01ad-629752ff344f",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+            "childIndex": 9,
+            "point": [
+              588.39,
+              796.48
+            ],
+            "rotation": 0,
+            "text": "NAT : network address translation\nallows hunders maybe thousands of devices\nto use one external ip address",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a8234264-019d-4405-19f0-ee88948ff16b": {
+            "id": "a8234264-019d-4405-19f0-ee88948ff16b",
+            "type": "text",
+            "name": "Text",
+            "parentId": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+            "childIndex": 10,
+            "point": [
+              910.36,
+              1053.94
+            ],
+            "rotation": 0,
+            "text": "the nat software is built in into the router",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          }
+        },
+        "bindings": {}
       }
     },
     "pageStates": {
@@ -5097,6 +5289,32 @@
         "camera": {
           "point": [
             -505.5,
+            -680.5
+          ],
+          "zoom": 1
+        }
+      },
+      "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf": {
+        "id": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
+        "selectedIds": [
+          "c899bd9f-2ae3-4cea-302c-fa3012a45dc2"
+        ],
+        "camera": {
+          "point": [
+            -582.5,
+            -472
+          ],
+          "zoom": 1
+        }
+      },
+      "2de60891-a411-4c8a-31e8-856a8c15b99b": {
+        "id": "2de60891-a411-4c8a-31e8-856a8c15b99b",
+        "selectedIds": [
+          "a8234264-019d-4405-19f0-ee88948ff16b"
+        ],
+        "camera": {
+          "point": [
+            -515,
             -680.5
           ],
           "zoom": 1
