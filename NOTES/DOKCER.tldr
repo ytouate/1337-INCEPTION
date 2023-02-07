@@ -5788,12 +5788,12 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 1,
             "point": [
-              1077.95,
-              576.82
+              755.2679564641038,
+              549.79
             ],
             "radius": [
-              126.45535217948965,
-              118.64500000000004
+              123.43138148532094,
+              129.02500000000003
             ],
             "rotation": 0,
             "style": {
@@ -5816,12 +5816,12 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 2,
             "point": [
-              1115.45,
-              660.31
+              791.8712059582781,
+              640.5843634371444
             ],
             "radius": [
-              85.15640810302729,
-              76.68125673322265
+              83.12003338194219,
+              83.38993762909564
             ],
             "rotation": 6.277072339343248,
             "style": {
@@ -5844,12 +5844,12 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 3,
             "point": [
-              1092.46,
-              627
+              769.4309738017164,
+              604.3601420203128
             ],
             "radius": [
-              110.14226926928684,
-              91.71670304969423
+              107.50839898448615,
+              99.74080332914828
             ],
             "rotation": 0.002448746132053259,
             "style": {
@@ -5872,8 +5872,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 4,
             "point": [
-              1143.68,
-              703.89
+              819.4261321774925,
+              687.9770854229002
             ],
             "rotation": 0,
             "text": "server\ndocker deamon",
@@ -5882,7 +5882,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6871673164456813,
+              "scale": 0.6707348460827596,
               "font": "script",
               "textAlign": "middle"
             }
@@ -5894,8 +5894,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 5,
             "point": [
-              1158.18,
-              625.6
+              833.5793886485732,
+              602.8376589826795
             ],
             "rotation": 0,
             "text": "rest api",
@@ -5904,7 +5904,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.8865843670222742,
+              "scale": 0.8653831675666902,
               "font": "script",
               "textAlign": "middle"
             }
@@ -5916,8 +5916,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 6,
             "point": [
-              1167.17,
-              579.19
+              842.3544076606432,
+              552.3673462851363
             ],
             "rotation": 0,
             "text": "Client",
@@ -5926,7 +5926,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.8244917995060783,
+              "scale": 0.8047754411525788,
               "font": "script",
               "textAlign": "middle"
             }
@@ -5938,8 +5938,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 7,
             "point": [
-              1161.16,
-              600.44
+              836.4881268750436,
+              575.4764638206414
             ],
             "rotation": 0,
             "text": "docker CLI",
@@ -5948,7 +5948,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.573184578747926,
+              "scale": 0.5594778171232939,
               "font": "script",
               "textAlign": "middle"
             }
@@ -5960,12 +5960,12 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 8,
             "point": [
-              1414.14,
-              710.19
+              1083.42,
+              694.83
             ],
             "size": [
-              93.61,
-              58.43
+              91.37,
+              63.54
             ],
             "rotation": 0,
             "style": {
@@ -5988,12 +5988,12 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 9,
             "point": [
-              1409.38,
-              618.3
+              1078.77,
+              594.9
             ],
             "size": [
-              97.24,
-              52.65
+              94.91,
+              57.26
             ],
             "rotation": 0,
             "style": {
@@ -6016,12 +6016,12 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 10,
             "point": [
-              934.43,
-              600.84
+              615.18,
+              575.91
             ],
             "size": [
-              83.31,
-              58.38
+              81.32,
+              63.49
             ],
             "rotation": 0,
             "style": {
@@ -6044,12 +6044,12 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 11,
             "point": [
-              935.25,
-              709.11
+              615.98,
+              693.65
             ],
             "size": [
-              86.19,
-              57.18
+              84.13,
+              62.18
             ],
             "rotation": 0,
             "style": {
@@ -6072,8 +6072,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 12,
             "point": [
-              1416.56,
-              725.51
+              1085.7806580966999,
+              711.4885734754941
             ],
             "rotation": 0,
             "text": "data volums",
@@ -6082,7 +6082,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6287643944083656,
+              "scale": 0.6137285333755416,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6094,8 +6094,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 13,
             "point": [
-              1429.69,
-              626.92
+              1098.5966758529269,
+              604.2731429895907
             ],
             "rotation": 0,
             "text": "image",
@@ -6104,7 +6104,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.817727509446318,
+              "scale": 0.7981729079070222,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6116,8 +6116,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 14,
             "point": [
-              936.47,
-              613.52
+              617.1712167724831,
+              589.7008053436723
             ],
             "rotation": 0,
             "text": "container",
@@ -6126,7 +6126,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.7257015188321541,
+              "scale": 0.7083475667230547,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6138,8 +6138,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 15,
             "point": [
-              942.58,
-              720.77
+              623.1351062234006,
+              706.3338809052215
             ],
             "rotation": 0,
             "text": "network",
@@ -6148,7 +6148,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.8015683720813391,
+              "scale": 0.7824001895981968,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6160,8 +6160,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 16,
             "point": [
-              1328.8,
-              716.77
+              1000.12,
+              701.99
             ],
             "rotation": 0,
             "bend": -0.0001297332414916505,
@@ -6180,8 +6180,8 @@
                 "id": "end",
                 "index": 1,
                 "point": [
-                  69.34,
-                  11.88
+                  67.3,
+                  12.84
                 ],
                 "canBind": true,
                 "bindingId": "04f92806-36aa-446b-254d-8d3282008db9"
@@ -6190,8 +6190,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  34.67,
-                  5.94
+                  33.65,
+                  6.42
                 ]
               }
             },
@@ -6218,8 +6218,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 17,
             "point": [
-              1331.37,
-              650.92
+              1002.63,
+              630.79
             ],
             "rotation": 0,
             "bend": -0.0001324669442731653,
@@ -6229,7 +6229,7 @@
                 "index": 0,
                 "point": [
                   0,
-                  21.43
+                  22.88
                 ],
                 "canBind": true
               },
@@ -6237,7 +6237,7 @@
                 "id": "end",
                 "index": 1,
                 "point": [
-                  62.01,
+                  60.14,
                   0
                 ],
                 "canBind": true,
@@ -6247,8 +6247,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  31.01,
-                  10.72
+                  30.07,
+                  11.44
                 ]
               }
             },
@@ -6275,8 +6275,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 18,
             "point": [
-              1033.74,
-              630.36
+              712.5,
+              608.65
             ],
             "rotation": 0,
             "bend": 0.00016085477359953435,
@@ -6285,8 +6285,8 @@
                 "id": "start",
                 "index": 0,
                 "point": [
-                  53.52,
-                  20.42
+                  51.75,
+                  21.85
                 ],
                 "canBind": true,
                 "bindingId": "e47290d6-1e9d-4bc9-2b37-289ce6ff69be"
@@ -6305,8 +6305,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  26.76,
-                  10.21
+                  25.88,
+                  10.93
                 ]
               }
             },
@@ -6333,8 +6333,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 19,
             "point": [
-              1037.44,
-              709.19
+              716.11,
+              693.43
             ],
             "rotation": 0,
             "bend": -0.00008059903474960192,
@@ -6343,7 +6343,7 @@
                 "id": "start",
                 "index": 0,
                 "point": [
-                  41.36,
+                  39.95,
                   0
                 ],
                 "canBind": true,
@@ -6354,7 +6354,7 @@
                 "index": 1,
                 "point": [
                   0,
-                  18.43
+                  19.74
                 ],
                 "canBind": true,
                 "bindingId": "31964421-c9e9-433c-20ad-ba121d69bf10"
@@ -6363,8 +6363,8 @@
                 "id": "bend",
                 "index": 2,
                 "point": [
-                  20.68,
-                  9.22
+                  19.98,
+                  9.87
                 ]
               }
             },
@@ -6391,8 +6391,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 20,
             "point": [
-              1325.46,
-              624.77
+              996.8591639921858,
+              601.9350440389397
             ],
             "rotation": 5.862781397784173,
             "text": "manages",
@@ -6401,7 +6401,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6603132783145271,
+              "scale": 0.6445229778790074,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6413,8 +6413,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 21,
             "point": [
-              1014.16,
-              683.17
+              693.0033888578804,
+              665.4443364659278
             ],
             "rotation": 5.862781397784173,
             "text": "manages",
@@ -6423,7 +6423,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.6603132783145271,
+              "scale": 0.6445229778790074,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6435,8 +6435,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 21,
             "point": [
-              1336.17,
-              686.25
+              1007.313052047722,
+              668.793799148721
             ],
             "rotation": 0.1550279771526828,
             "text": "manages",
@@ -6445,7 +6445,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.7528477422513978,
+              "scale": 0.7348446330867661,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6457,8 +6457,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 22,
             "point": [
-              1022.71,
-              599.91
+              701.3489297425522,
+              574.9000952421088
             ],
             "rotation": 0.41930574804778153,
             "text": "manages",
@@ -6467,7 +6467,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.707563178000858,
+              "scale": 0.6906429743268334,
               "font": "script",
               "textAlign": "middle"
             }
@@ -6703,8 +6703,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 31,
             "point": [
-              1180.9,
-              894.37
+              1177.05,
+              938.15
             ],
             "rotation": 0.008050838337177346,
             "text": "a processor run machine languages \n(compiled assembly code)",
@@ -6981,8 +6981,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 42,
             "point": [
-              770.39,
-              1497.86
+              778.41,
+              1488.3
             ],
             "rotation": 0,
             "text": "Netfilter",
@@ -6991,7 +6991,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.8458218733928131,
+              "scale": 0.8704502161768981,
               "font": "script",
               "textAlign": "middle"
             }
@@ -7157,8 +7157,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 50,
             "point": [
-              1099.62,
-              996.62
+              1095.77,
+              1040.4
             ],
             "rotation": 0,
             "text": " With cgroups, the Linux operating system can easily \nmanage and monitor resource allocation for a given process\nand set resource limits, like CPU, memory, and network limits.",
@@ -7179,8 +7179,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 51,
             "point": [
-              1129.56,
-              980.06
+              1125.71,
+              1023.84
             ],
             "rotation": 0,
             "bend": -0.000023632700165371794,
@@ -7225,6 +7225,303 @@
               0.5,
               0.5
             ]
+          },
+          "952564b1-7f99-488b-3a74-55196d915b1a": {
+            "id": "952564b1-7f99-488b-3a74-55196d915b1a",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 52,
+            "point": [
+              580.78,
+              1015.45
+            ],
+            "rotation": 0,
+            "text": "docker container host on a single\nphysical server with a host OS",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.7650920727272753,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "92e554b0-9d9c-4500-2aa7-3d35692336a0": {
+            "id": "92e554b0-9d9c-4500-2aa7-3d35692336a0",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 53,
+            "point": [
+              580.88,
+              1012.52
+            ],
+            "rotation": 0,
+            "bend": -0.00004276785854956576,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0.23
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  234.05,
+                  0
+                ],
+                "canBind": true,
+                "bindingId": "1ce594ab-283d-475c-28ea-e15ee0de54fb"
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  117.03,
+                  0.12
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "7de00fb1-bceb-48b1-2264-ca8c710ef09b": {
+            "id": "7de00fb1-bceb-48b1-2264-ca8c710ef09b",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 54,
+            "point": [
+              582.46,
+              1010.29
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  2.42
+                ],
+                "canBind": true,
+                "bindingId": "6119ab81-60d5-4bc6-3e10-4cb4982ce076"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  496.98,
+                  0
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  248.49,
+                  1.21
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "09c2cd42-7a6f-4d21-1539-fa02a1401148": {
+            "id": "09c2cd42-7a6f-4d21-1539-fa02a1401148",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 55,
+            "point": [
+              827.9,
+              1019.49
+            ],
+            "rotation": 0,
+            "text": "VMs have the host OS and guest OS\ninside each VM",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 0.6991997042068355,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "84b3219f-9008-4e2d-2adb-a9470f45749b": {
+            "id": "84b3219f-9008-4e2d-2adb-a9470f45749b",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 56,
+            "point": [
+              579.91,
+              1074,
+              0.5
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  0
+                ],
+                "canBind": true
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  498.38,
+                  2.18
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  249.19,
+                  1.09
+                ]
+              }
+            },
+            "decorations": {},
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "5f0a386e-e052-42fe-0aab-0d6335dcd8a7": {
+            "id": "5f0a386e-e052-42fe-0aab-0d6335dcd8a7",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 57,
+            "point": [
+              1194,
+              1137.7
+            ],
+            "rotation": 0,
+            "text": "it's not quite like a VM\nuses the host kernel\ncan't boot a different OS\ncan't have its own modules\ndoesn't need init as PID 1\ndoesn't need syslogd, cron",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "fffb2424-2937-46a7-38b5-9f32c2c3f7c6": {
+            "id": "fffb2424-2937-46a7-38b5-9f32c2c3f7c6",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 58,
+            "point": [
+              1127.33,
+              1359.83
+            ],
+            "rotation": 0,
+            "text": "it's just normal processes on the host machine",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "3f41c7d5-d145-481a-236b-c05e1424b3f3": {
+            "id": "3f41c7d5-d145-481a-236b-c05e1424b3f3",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 59,
+            "point": [
+              1150.94,
+              1405.7
+            ],
+            "rotation": 0,
+            "text": "CGROUPS LIMITS WHAT YOU CAN USE\nNAMESPACES LIMIT WHAT YOU CAN SEE",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "646fdd87-a12d-4bc7-2c9a-69af1386492c": {
+            "id": "646fdd87-a12d-4bc7-2c9a-69af1386492c",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 60,
+            "point": [
+              1182.65,
+              1469.88
+            ],
+            "rotation": 0,
+            "text": "multiple namespaces:\npid - net - mnt - uts - ipc - user",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
           }
         },
         "bindings": {
@@ -7311,6 +7608,30 @@
               0.7
             ],
             "distance": 16
+          },
+          "1ce594ab-283d-475c-28ea-e15ee0de54fb": {
+            "id": "1ce594ab-283d-475c-28ea-e15ee0de54fb",
+            "type": "arrow",
+            "fromId": "92e554b0-9d9c-4500-2aa7-3d35692336a0",
+            "toId": "952564b1-7f99-488b-3a74-55196d915b1a",
+            "handleId": "end",
+            "point": [
+              0.98,
+              0.07
+            ],
+            "distance": 8
+          },
+          "6119ab81-60d5-4bc6-3e10-4cb4982ce076": {
+            "id": "6119ab81-60d5-4bc6-3e10-4cb4982ce076",
+            "type": "arrow",
+            "fromId": "7de00fb1-bceb-48b1-2264-ca8c710ef09b",
+            "toId": "952564b1-7f99-488b-3a74-55196d915b1a",
+            "handleId": "start",
+            "point": [
+              0.02,
+              0.08
+            ],
+            "distance": 8
           }
         }
       },
@@ -7440,7 +7761,7 @@
         "camera": {
           "point": [
             0,
-            0
+            112.28
           ],
           "zoom": 1
         }
@@ -7477,7 +7798,7 @@
         "camera": {
           "point": [
             -688.5,
-            -680.5
+            -713.27
           ],
           "zoom": 1
         }
@@ -7485,12 +7806,12 @@
       "ee507fab-fc58-4a0e-31f2-d42bdb39b4bf": {
         "id": "ee507fab-fc58-4a0e-31f2-d42bdb39b4bf",
         "selectedIds": [
-          "5392258e-3ef1-45a5-2f59-2464322d05dc"
+          "ee54f79c-d834-4b79-14d2-4c6298c3abce"
         ],
         "camera": {
           "point": [
             -505.5,
-            -959.69
+            -680.5
           ],
           "zoom": 1
         }
@@ -7498,7 +7819,7 @@
       "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf": {
         "id": "c2e1c3df-5cf2-4fe0-0a73-4804d370b9bf",
         "selectedIds": [
-          "6274c019-5430-4b33-38bb-daf177f2910a"
+          "c899bd9f-2ae3-4cea-302c-fa3012a45dc2"
         ],
         "camera": {
           "point": [
@@ -7523,9 +7844,7 @@
       },
       "4098cfd3-47a0-4bdd-02d9-c475d1274967": {
         "id": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
-        "selectedIds": [
-          "2814e043-0a29-4bed-16c6-9663ce629836"
-        ],
+        "selectedIds": [],
         "camera": {
           "point": [
             -527,
