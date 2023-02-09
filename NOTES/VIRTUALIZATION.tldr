@@ -6703,8 +6703,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 31,
             "point": [
-              1180.9,
-              894.37
+              1177.05,
+              938.15
             ],
             "rotation": 0.008050838337177346,
             "text": "a processor run machine languages \n(compiled assembly code)",
@@ -6981,8 +6981,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 42,
             "point": [
-              770.39,
-              1497.86
+              778.41,
+              1488.3
             ],
             "rotation": 0,
             "text": "Netfilter",
@@ -6991,7 +6991,7 @@
               "size": "small",
               "isFilled": false,
               "dash": "draw",
-              "scale": 0.8458218733928131,
+              "scale": 0.8704502161768981,
               "font": "script",
               "textAlign": "middle"
             }
@@ -7157,8 +7157,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 50,
             "point": [
-              1099.62,
-              996.62
+              1095.77,
+              1040.4
             ],
             "rotation": 0,
             "text": " With cgroups, the Linux operating system can easily \nmanage and monitor resource allocation for a given process\nand set resource limits, like CPU, memory, and network limits.",
@@ -7179,8 +7179,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 51,
             "point": [
-              1129.56,
-              980.06
+              1125.71,
+              1023.84
             ],
             "rotation": 0,
             "bend": -0.000023632700165371794,
@@ -7442,8 +7442,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 57,
             "point": [
-              1197.85,
-              1093.92
+              1194,
+              1137.7
             ],
             "rotation": 0,
             "text": "it's not quite like a VM\nuses the host kernel\ncan't boot a different OS\ncan't have its own modules\ndoesn't need init as PID 1\ndoesn't need syslogd, cron",
@@ -7464,8 +7464,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 58,
             "point": [
-              1131.18,
-              1316.05
+              1127.33,
+              1359.83
             ],
             "rotation": 0,
             "text": "it's just normal processes on the host machine",
@@ -7486,8 +7486,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 59,
             "point": [
-              1154.79,
-              1361.92
+              1150.94,
+              1405.7
             ],
             "rotation": 0,
             "text": "CGROUPS LIMITS WHAT YOU CAN USE\nNAMESPACES LIMIT WHAT YOU CAN SEE",
@@ -7508,8 +7508,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 60,
             "point": [
-              1186.5,
-              1426.1
+              1182.65,
+              1469.88
             ],
             "rotation": 0,
             "text": "multiple namespaces:\npid - net - mnt - uts - ipc - user",

@@ -7522,6 +7522,50 @@
               "font": "script",
               "textAlign": "middle"
             }
+          },
+          "9d48b959-019d-45ca-225e-df2e06773332": {
+            "id": "9d48b959-019d-45ca-225e-df2e06773332",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 61,
+            "point": [
+              1116.86,
+              1560.94
+            ],
+            "rotation": 0,
+            "text": "The bridge network is the network in\nwhich containers are run by default.",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "a512e82c-00a5-458e-2651-8c5e1b8024fb": {
+            "id": "a512e82c-00a5-458e-2651-8c5e1b8024fb",
+            "type": "text",
+            "name": "Text",
+            "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
+            "childIndex": 62,
+            "point": [
+              1711.77,
+              1132.66
+            ],
+            "rotation": 3.144688025135064,
+            "text": "cgroups kaylimit lhardwar\nnamespace limiti software",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1.3335304799664809,
+              "font": "script",
+              "textAlign": "middle"
+            }
           }
         },
         "bindings": {
