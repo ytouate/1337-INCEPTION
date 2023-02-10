@@ -1,6 +1,3 @@
-understand: docker networking
-    - https://www.youtube.com/watch?v=bKFMS5C4CG0&t=5s
-    - https://www.youtube.com/watch?v=5grbXvV_DSk
 understand: multi container docker applications
     - https://www.youtube.com/watch?v=CDVed_m0qQo
 understand: yaml files
@@ -10,3 +7,7 @@ understand: docker-compose
     - https://www.youtube.com/watch?v=DM65_JyGxCo
 understand: volumes
     - https://www.youtube.com/watch?v=VOK06Q4QqvE
+
+
+set up a firewall before nginx
+
