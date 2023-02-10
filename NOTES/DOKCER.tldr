@@ -7464,8 +7464,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 58,
             "point": [
-              1127.33,
-              1359.83
+              1121.73,
+              1350.77
             ],
             "rotation": 0,
             "text": "it's just normal processes on the host machine",
@@ -7486,8 +7486,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 59,
             "point": [
-              1150.94,
-              1405.7
+              1145.34,
+              1396.64
             ],
             "rotation": 0,
             "text": "CGROUPS LIMITS WHAT YOU CAN USE\nNAMESPACES LIMIT WHAT YOU CAN SEE",
@@ -7508,8 +7508,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 60,
             "point": [
-              1182.65,
-              1469.88
+              1177.05,
+              1460.82
             ],
             "rotation": 0,
             "text": "multiple namespaces:\npid - net - mnt - uts - ipc - user",
@@ -7530,8 +7530,8 @@
             "parentId": "4098cfd3-47a0-4bdd-02d9-c475d1274967",
             "childIndex": 61,
             "point": [
-              1116.86,
-              1560.94
+              1111.26,
+              1551.88
             ],
             "rotation": 0,
             "text": "The bridge network is the network in\nwhich containers are run by default.",
