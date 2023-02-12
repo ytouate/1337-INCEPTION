@@ -1,6 +1,9 @@
-FROM debian:buster
+FROM alpine:3.17
 
-RUN apt-get update -y
-RUN apt-get install nginx -y
-RUN service nginx start
-cmd ["bash"]
+RUN apk update
+RUN apk add openrc
+RUN apk add nginx
+RUN rc-status 2> /dev/null && touch /run/openrc/softlevel
+COPY start_nginx.sh /script/start_nginx.sh
+ENTRYPOINT ["sh", "/script/start_nginx.sh"]
+cmd ["sh"]
