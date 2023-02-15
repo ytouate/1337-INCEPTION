@@ -8,9 +8,10 @@ understand: docker-compose
 understand: volumes
     - https://www.youtube.com/watch?v=VOK06Q4QqvE
 
-
-how TLS work
-
+understand: how TLS work
 
 ideas:
     set up firewall
+    configure nginx as a load balancer
+    configure reverse_proxy
+    configure proxy
