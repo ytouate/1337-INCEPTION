@@ -9,5 +9,8 @@ understand: volumes
     - https://www.youtube.com/watch?v=VOK06Q4QqvE
 
 
-set up a firewall before nginx
+how TLS work
 
+
+ideas:
+    set up firewall
