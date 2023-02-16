@@ -30,7 +30,12 @@ RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositor
     php7-xmlrpc php7-posix php7-mcrypt \
     php7-gettext php7-ldap \
     php7-ctype php7-dom \
-    php7-simplexml wget
+    php7-simplexml wget && \
+    mkdir -p /usr/share/webapps/ && \
+    cd /usr/share/webapps/ && \
+    wget http://wordpress.org/latest.tar.gz && \
+    tar -xzvf latest.tar.gz && \
+    rm latest.tar.gz
 
 
 ENTRYPOINT ["sh", "/script/start_nginx.sh"]
