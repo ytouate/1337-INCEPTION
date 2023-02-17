@@ -21,7 +21,7 @@ COPY start_nginx.sh /script/start_nginx.sh
 
 # install dependencies
 RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositories && \
-    apk update && apk add lighttpd php7 \
+    apk update && apk add  php7 \
     php7-common php7-session \
     php7-iconv php7-json php7-gd \
     php7-curl php7-xml php7-mysqli \
