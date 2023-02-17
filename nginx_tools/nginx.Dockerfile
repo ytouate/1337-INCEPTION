@@ -23,13 +23,14 @@ RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositor
     php7-pdo_mysql php7-soap                    \
     php7-xmlrpc php7-posix php7-mcrypt          \
     php7-gettext php7-ldap                      \
-    php7-ctype php7-dom                         \
+    php7-ctype php7-dom php-fpm                 \
     php7-simplexml wget &&                      \
     mkdir -p /usr/share/webapps/ &&             \
     cd /usr/share/webapps/ &&                   \
     wget http://wordpress.org/latest.tar.gz &&  \
     tar -xzvf latest.tar.gz &&                  \
-    rm latest.tar.gz
+    rm latest.tar.gz  &&                        \
+    ln -s /usr/share/webapps/wordpress/ /var/www/localhost/htdocs/wordpress
 
 RUN apk add mariadb &&                          \
     /etc/init.d/mariadb setup &&                \
