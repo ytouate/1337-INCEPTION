@@ -15,27 +15,22 @@ COPY nginx.conf /etc/nginx/http.d/default.conf
 COPY start_nginx.sh /script/start_nginx.sh
 
 RUN echo http://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositories && \
-    apk update && apk add  php7                 \
-    php7-common php7-session                    \
-    php7-iconv php7-json php7-gd                \
-    php7-curl php7-xml php7-mysqli              \
-    php7-imap php7-cgi fcgi php7-pdo            \
-    php7-pdo_mysql php7-soap                    \
-    php7-xmlrpc php7-posix php7-mcrypt          \
-    php7-gettext php7-ldap                      \
-    php7-ctype php7-dom php-fpm                 \
-    php7-simplexml wget &&                      \
-    mkdir -p /usr/share/webapps/ &&             \
-    cd /usr/share/webapps/ &&                   \
-    wget http://wordpress.org/latest.tar.gz &&  \
-    tar -xzvf latest.tar.gz &&                  \
-    rm latest.tar.gz  &&                        \
-    ln -s /usr/share/webapps/wordpress/ /var/www/localhost/htdocs/wordpress
+    apk update && apk add  php7  php-fpm wget &&    \
+    mkdir -p /usr/share/webapps/ && php-mysqli      \
+    cd /usr/share/webapps/ &&                       \
+    wget http://wordpress.org/latest.tar.gz &&      \
+    tar -xzvf latest.tar.gz &&                      \
+    rm latest.tar.gz  &&                            \
+    ln -s   /usr/share/webapps/wordpress/           \
+            /var/www/localhost/htdocs/wordpress
 
-RUN apk add mariadb &&                          \
-    /etc/init.d/mariadb setup &&                \
-    apk add mariadb-client
+RUN apk add mariadb mariadb-client  &&          \
+    /etc/init.d/mariadb setup  &&               \
+    cd /var/www/localhost/htdocs/wordpress/ &&  \
+    rm wp-config-sample.php
+
+COPY wp-config.php /var/www/localhost/htdocs/wordpress
 
 ENTRYPOINT ["sh", "/script/start_nginx.sh"]
 
-cmd ["sh"]
+CMD ["sh"]
