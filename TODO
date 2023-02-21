@@ -10,46 +10,4 @@ understand: volumes
 
 understand: how TLS work
 
-ideas:
-    set up firewall
-    configure nginx as a load balancer
-    configure reverse_proxy
-    configure proxy
-
-
-
-SOFTWARE:
-    buy tickets from the app
-    your phone as a ticket
-    signaling (the train is gonna be late, promotions...)
-    lost and found platform
-    improved chat bot
-    integrate a map on the app
-
-
-present the idead:
-    role module
-    what we are solving
-    and how we do it
-    speed and easy is what people are looking for
-    we are to ditch paper
-    digitilize the buisness module
-    giving promotions
-
-Our Idea aims to digitalize the company by developing a software that allows customers to buy tickets, use their phone as a ticket, receive notifications on delays and promotions, report lost items, and interact with an improved chat bot. By ditching paper and moving to a digital platform making the process more eco-friendly, we aim to streamline the company's operations and improve the customer experience.
-
-
-our idea relats to the  benefit from the software by improving their digital infrastructure and enhancing their services to their customers.
-
-It is important to note that a high-speed train transportation experience is not complete without an automated, fast, smooth, and digitized user experience. High-speed trains are designed to transport passengers quickly and efficiently, but if the user experience is not optimized, it can lead to frustration and inconvenience. By digitizing the transportation process and providing users with an easy-to-use software that allows them to buy tickets, track trains, receive alerts, and communicate with customer support, the overall experience can be greatly improved. A fast and smooth user experience is essential to making high-speed train transportation a viable option for travelers, and the digitization of the process is key to achieving this goal.
-
-our idea is to make high-speed train transportation experience as good as it can be
-High-speed trains are designed to transport passengers quickly and effeciently, but if the user
-experience is not optimized it can lead to frustration and inconveniece by dy digitliazing the transportation process and proving users with an easy-to-use software that allows them to quickly automated the traveling process  the overall experience can be greatly improved
-
-The problem or need that your project/idea aims to solve is to improve the user experience of high-speed train transportation. While high-speed trains are designed to transport passengers quickly and efficiently, the user experience can be frustrating and inconvenient if not optimized. By digitizing the transportation process and providing users with easy-to-use software, you are addressing the need for a fast and smooth user experience, which is essential to making high-speed train transportation a viable option for travelers. Additionally, by providing features such as real-time tracking, alerts, and an improved chatbot, you are addressing the need for convenience and reliability in the transportation process. Ultimately, the aim of your project/idea is to make high-speed train transportation as convenient and enjoyable as possible for passengers.
-
-
-- ay wa7d ghadi telecharger app 3ndo promotion;
-- points
-- sel3a kadwi ela rassha
+WP-CLI 

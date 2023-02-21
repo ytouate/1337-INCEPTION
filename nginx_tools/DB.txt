@@ -1,0 +1,5 @@
+CREATE DATABASE wordpress_db;
+CREATE USER 'ytouate'@'localhost' IDENTIFIED BY 'helloworld';
+GRANT ALL PRIVILEGES ON wordpress_db.* TO 'ytouate'@'localhost';
+FLUSH PRIVILEGES;
+EXIT
