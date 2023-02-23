@@ -1,7 +1,8 @@
 FROM alpine:3.17
 
-RUN apk update && apk add openrc && apk add nginx && openrc && touch /run/openrc/softlevel &&   \
-    apk add vim && apk add openssl && mkdir /etc/nginx/ssl
+RUN apk update && apk add openrc && apk add nginx && openrc &&          \
+    touch /run/openrc/softlevel && apk add vim && apk add openssl &&    \
+    mkdir /etc/nginx/ssl
 
 COPY ./tools/cert.crt /etc/nginx/ssl/
 COPY ./tools/cert.key /etc/nginx/ssl/
