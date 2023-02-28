@@ -1,13 +1,8 @@
-understand: multi container docker applications
-    - https://www.youtube.com/watch?v=CDVed_m0qQo
 understand: yaml files
     - https://www.youtube.com/watch?v=IA90BTozdow&t=42s
-understand: docker-compose
-    - https://www.youtube.com/watch?v=HG6yIjZapSA
-    - https://www.youtube.com/watch?v=DM65_JyGxCo
 understand: volumes
     - https://www.youtube.com/watch?v=VOK06Q4QqvE
 
 understand: how TLS work
-
+what is bound
 WP-CLI 
