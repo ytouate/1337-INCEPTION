@@ -6,3 +6,5 @@ understand: volumes
 understand: how TLS work
 what is bound
 WP-CLI 
+driver_opt
+Containers vs. virtual machines

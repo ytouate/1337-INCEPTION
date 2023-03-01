@@ -17,14 +17,13 @@ services:
     container_name: wp_ct
     image: wp
     volumes:
-      - /home/ytouate/data/wordpress:/home/ytouate/data/wordpress
+      - web_data:/home/ytouate/data/wordpress
     env_file:
         ./.env
     restart: always
   nginx:
     depends_on:
       - wordpress
-      - mariadb
     restart: always
     build: ./requirements/nginx
     image: nginx
@@ -32,8 +31,15 @@ services:
     ports:
       - 443:443
     volumes:
-      - /home/ytouate/data/wordpress:/home/ytouate/data/wordpress
+      - web_data:/home/ytouate/data/wordpress
+        
 volumes:
   db_data:
+  web_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /home/ytouate/data/wordpress
+      o: bind
 networks:
   default:

@@ -7,6 +7,5 @@ RUN apk update && apk add openrc 2> /dev/null && apk add nginx && openrc &&     
 COPY ./tools/cert.crt /etc/nginx/ssl/
 COPY ./tools/cert.key /etc/nginx/ssl/
 COPY ./tools/nginx.conf /etc/nginx/http.d/default.conf
-COPY ./tools/setup.sh /script/setup.sh
 
 CMD [  "nginx", "-g", "daemon off;"]
