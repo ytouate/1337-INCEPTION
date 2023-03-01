@@ -11,3 +11,4 @@ RUN  cd /etc/my.cnf.d && sed -i 's/skip-networking/skip-networking=0/g' mariadb-
 ENTRYPOINT [ "sh", "setup.sh" ]
 
 CMD ["mysqld", "--user=root"]
+
