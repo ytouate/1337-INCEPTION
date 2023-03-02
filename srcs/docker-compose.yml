@@ -24,16 +24,35 @@ services:
   nginx:
     depends_on:
       - wordpress
+      - my_site
     restart: always
     build: ./requirements/nginx
     image: nginx
     container_name: nginx_ct
     ports:
+      - 81:81
       - 443:443
     volumes:
       - web_data:/home/ytouate/data/wordpress
-        
+      - my_site_data:/my_site
+  redis:
+    depends_on:
+      - wordpress
+    container_name: redis_ct
+    restart: always
+    image: redis
+    build:
+      context: ./requirements/bonus
+      dockerfile: redis.Dockerfile
+  my_site:
+    container_name: my_site_ct
+    build:
+      context: ./requirements/bonus
+      dockerfile: my_site.Dockerfile
+    volumes:
+      - my_site_data:/my_site
 volumes:
+  my_site_data:
   db_data:
     driver: local
     driver_opts:
