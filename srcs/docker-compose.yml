@@ -2,15 +2,16 @@ version: '3.8'
 
 services:
   mariadb:
+    restart: always
     build: ./requirements/mariadb
     container_name: db_ct
     image: mariadb
     env_file:
         ./.env
-    restart: always
     volumes:
       - db_data:/var/lib/mysql
   wordpress:
+    restart: always
     depends_on:
         - mariadb
     build: ./requirements/wordpress
@@ -20,7 +21,6 @@ services:
       - web_data:/home/ytouate/data/wordpress
     env_file:
         ./.env
-    restart: always
   nginx:
     depends_on:
       - wordpress

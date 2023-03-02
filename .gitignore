@@ -1,5 +1,5 @@
 *.tldr
 *.crt
 *.key
-run_container.sh
 *.env
+wp-config.php
