@@ -12,6 +12,10 @@ define( 'DB_CHARSET', 'utf8' );
 
 define( 'DB_COLLATE', '' );
 
+define ( 'WP_REDIS_HOST', 'redis' );
+
+define ( 'WP_REDIS_SCHEME', 'tcp' );
+
 define( 'AUTH_KEY',          'Bi Wdm)]+/f-nQyfB?1?BTkd=it#s#@QuTzL2,,_e2AG{*&wg[A)ODBU,]1Jgd=v' );
 define( 'SECURE_AUTH_KEY',   '<R $cV>|$i{(s@/PSV9:;nH>?Lf],A=r~Dg/>9^5h:8SVGoEYj}s7{QsPpK#gLlm' );
 define( 'LOGGED_IN_KEY',     'q>>OqWGL1J+t*Xda{^4v8kH&#2r$tC,wT*rStZ7@~x;9-ShSF!hgjHOTWhH 9)YG' );

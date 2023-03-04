@@ -10,6 +10,7 @@ services:
         ./.env
     volumes:
       - db_data:/var/lib/mysql
+
   wordpress:
     restart: always
     depends_on:
@@ -17,15 +18,16 @@ services:
     build: ./requirements/wordpress
     container_name: wp_ct
     image: wp
-    volumes:
-      - web_data:/home/ytouate/data/wordpress
     env_file:
         ./.env
+    volumes:
+      - web_data:/home/ytouate/data/wordpress
+
   nginx:
+    restart: always
     depends_on:
       - wordpress
-      - my_site
-    restart: always
+      # - my_site
     build: ./requirements/nginx
     image: nginx
     container_name: nginx_ct
@@ -35,22 +37,39 @@ services:
     volumes:
       - web_data:/home/ytouate/data/wordpress
       - my_site_data:/my_site
+
   redis:
-    depends_on:
-      - wordpress
-    container_name: redis_ct
     restart: always
+    container_name: redis_ct
     image: redis
     build:
       context: ./requirements/bonus
       dockerfile: redis.Dockerfile
+
   my_site:
+    depends_on:
+      - nginx
     container_name: my_site_ct
     build:
       context: ./requirements/bonus
       dockerfile: my_site.Dockerfile
     volumes:
       - my_site_data:/my_site
+
+  ftp:
+    container_name: ftp_ct
+    image: ftp
+    build:
+     context: ./requirements/bonus
+     dockerfile: ftp.Dockerfile
+    env_file:
+      - ./.env
+    restart: always
+    ports:
+      - 21:21
+    volumes:
+        - web_data:/home/ytouate/data/wordpress
+
 volumes:
   my_site_data:
   db_data:
@@ -65,5 +84,6 @@ volumes:
       type: none
       device: /home/ytouate/data/wordpress
       o: bind
+
 networks:
   default:
