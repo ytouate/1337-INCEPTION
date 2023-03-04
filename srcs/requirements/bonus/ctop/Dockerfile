@@ -2,4 +2,4 @@ FROM alpine:3.17
 
 RUN apk update && apk add ctop
 
-CMD [ "tail", "-f" ]
+CMD [ "ctop" ]

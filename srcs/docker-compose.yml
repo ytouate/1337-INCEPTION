@@ -54,6 +54,7 @@ services:
 
   ftp:
     container_name: ftp_ct
+    init: true
     image: ftp
     build: ./requirements/bonus/ftp
     env_file:
@@ -71,12 +72,14 @@ services:
       - 82:82
 
   ctop:
+    tty: true
     container_name: ctop_ct
     image: ctop
     restart: always
     build: ./requirements/bonus/ctop
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock    
+      - /var/run/docker.sock:/var/run/docker.sock
+
 volumes:
   static_site_data:
   db_data:
