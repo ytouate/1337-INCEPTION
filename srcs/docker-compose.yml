@@ -27,41 +27,35 @@ services:
     restart: always
     depends_on:
       - wordpress
-      # - my_site
     build: ./requirements/nginx
     image: nginx
     container_name: nginx_ct
     ports:
-      - 81:81
       - 443:443
     volumes:
       - web_data:/home/ytouate/data/wordpress
-      - my_site_data:/my_site
+      - static_site_data:/static_site
 
   redis:
     restart: always
     container_name: redis_ct
     image: redis
-    build:
-      context: ./requirements/bonus
-      dockerfile: redis.Dockerfile
+    build: ./requirements/bonus/redis
 
-  my_site:
+  static_site:
     depends_on:
       - nginx
-    container_name: my_site_ct
-    build:
-      context: ./requirements/bonus
-      dockerfile: my_site.Dockerfile
+    container_name: static_site_ct
+    ports:
+      - 81:81
+    build: ./requirements/bonus/static_site
     volumes:
-      - my_site_data:/my_site
+      - static_site_data:/static_site
 
   ftp:
     container_name: ftp_ct
     image: ftp
-    build:
-     context: ./requirements/bonus
-     dockerfile: ftp.Dockerfile
+    build: ./requirements/bonus/ftp
     env_file:
       - ./.env
     restart: always
@@ -69,9 +63,22 @@ services:
       - 21:21
     volumes:
         - web_data:/home/ytouate/data/wordpress
+  adminer:
+    container_name: adminer_ct
+    image: adminer
+    build: ./requirements/bonus/adminer
+    ports:
+      - 82:82
 
+  ctop:
+    container_name: ctop_ct
+    image: ctop
+    restart: always
+    build: ./requirements/bonus/ctop
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock    
 volumes:
-  my_site_data:
+  static_site_data:
   db_data:
     driver: local
     driver_opts:
