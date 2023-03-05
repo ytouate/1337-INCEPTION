@@ -62,6 +62,7 @@ services:
     restart: always
     ports:
       - 21:21
+      - 20:20
     volumes:
         - web_data:/home/ytouate/data/wordpress
   adminer:
@@ -88,6 +89,7 @@ volumes:
       type: none
       device: /home/ytouate/data/mariadb
       o: bind
+
   web_data:
     driver: local
     driver_opts:

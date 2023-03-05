@@ -1,19 +1,13 @@
 understand: yaml files
     - https://www.youtube.com/watch?v=IA90BTozdow&t=42s
-understand: volumes
-    - https://www.youtube.com/watch?v=VOK06Q4QqvE
 
 understand: how TLS work
-what is bound
+what is bind
 WP-CLI 
 driver_opt
 Containers vs. virtual machines
 
-https://wiki.alpinelinux.org/wiki/FTP
-
-SET UP FTP SERVER
-SET UP ADMINER
-
+WRITE MAKEFILE
 
 IDEAS:
     MetalLB

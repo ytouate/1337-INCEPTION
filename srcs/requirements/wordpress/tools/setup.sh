@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sleep 3
+sleep 5
+
 cd /home/ytouate/data/wordpress && \
 wp core install --url=$WORDPRESS_DOMAIN_NAME --title=$WORDPRESS_DB_USER --admin_user=$WORDPRESS_DB_USER \
 --admin_password=$WORDPRESS_DB_PASSWORD --admin_email=$WORDPRESS_USER_EMAIL --skip-email && \
