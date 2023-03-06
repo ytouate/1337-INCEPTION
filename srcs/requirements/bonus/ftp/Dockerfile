@@ -12,4 +12,3 @@ EXPOSE 20/tcp 21/tcp 40000-40009/tcp
 ENTRYPOINT [ "sh", "setup.sh" ]
 
 CMD [ "/usr/sbin/vsftpd", "/etc/vsftpd/vsftpd.conf" ]
-

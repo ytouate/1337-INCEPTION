@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 /etc/init.d/mariadb restart
