@@ -1,10 +1,6 @@
 
-up: setup
+up:
 	cd srcs && docker-compose up --build
-
-setup:
-	sudo mkdir -p /home/ytouate/data/wordpress
-	sudo mkdir -p /home/ytouate/data/database
 
 stop:
 	cd srcs && docker-compose down 2> /dev/null
@@ -23,7 +19,5 @@ fclean: down
 	@if  [ ! -z "$(docker image ls -q)" ]; then \
 		docker rmi $(docker image ls -q); 	\
 	fi
-	cd /home/ytouate/data/wordpress && sudo rm -rf * 
-	cd /home/ytouate/data/mariadb && sudo rm -rf *
 
 re: clean up

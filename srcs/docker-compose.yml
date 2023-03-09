@@ -84,18 +84,7 @@ services:
 volumes:
   static_site_data:
   db_data:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/ytouate/data/mariadb
-      o: bind
-
   web_data:
-    driver: local
-    driver_opts:
-      type: none
-      device: /home/ytouate/data/wordpress
-      o: bind
 
 networks:
   default:
