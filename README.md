@@ -42,7 +42,7 @@ Additionally, I implemented a bonus part of the project that included the follow
 * RUN <code>make</code>
 * go to https://localhost:443 to see the wordpress page
 * http://localhost:82 to see the static website
-* RUN <code>ftp [the port where ftp container is running] 21 </code> to use ftp
+* RUN <code>ftp [the ip address of the ftp container] 21 </code> to use ftp
 
 ## Acknowledgements
 
